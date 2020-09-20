@@ -4,7 +4,7 @@
 
 function rockPaperScissors(userChoice) {
 
-    // Get a choice from the user.
+    // Get a choice from the user. A new prompt displays when you refresh the browser.
     var userChoice = window.prompt("Enter your choice: rock, paper, or scissors");
 
     // Define the computer's choice.
