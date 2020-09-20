@@ -301,7 +301,7 @@ vowelCounter("aEioUy");
 function rockPaperScissors(userChoice) {
 
     // Get a choice from the user.
-    var userChoice = prompt("Enter your choice: rock, paper, or scissors");
+    var userChoice = window.prompt("Enter your choice: rock, paper, or scissors");
 
     // Define the computer's choice.
     var computerChoice = Math.round(Math.random());
